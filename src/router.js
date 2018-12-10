@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Music from './views/Music.vue'
 import Test from './views/Test.vue'
+import New from './views/New.vue'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/test',
       name: 'test',
       component: Test
+    },
+    {
+      path: '/new',
+      name: 'new',
+      component: New
     },
     {
       path: '/about',
